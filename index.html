@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Global Citizenship Solution — DEMO</title>
+<meta name="description" content="DEMO website for Global Citizenship Solution, Lahore. Immigration, residency and citizenship services and enquiry form — demo only, not the firm's live site.">
+<style>
+:root{--gold:#c9a227;--black:#111;--ink:#1c2b2d;--muted:#5a6b6e;--bg:#f7f6f0;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+.demo{background:#b3261e;color:#fff;text-align:center;padding:10px 14px;font-weight:700;font-size:14px}
+.demo small{display:block;font-weight:400;opacity:.9}
+header{background:#111;color:#fff;border-bottom:3px solid var(--gold)}
+.wrap{max-width:1050px;margin:0 auto;padding:0 18px}
+.top{display:flex;gap:16px;align-items:center;padding:18px 0;flex-wrap:wrap}
+.logo{font-weight:800;font-size:26px;color:var(--gold);letter-spacing:.5px}
+h1{margin:0;font-size:26px}h1 small{display:block;font-size:15px;color:#dbe3e3;font-weight:500}
+nav{display:flex;gap:18px;padding:0 0 14px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-weight:600}
+.hero{padding:34px 0 24px}.hero h2{font-size:32px;margin:0 0 10px;line-height:1.25}.hero p{font-size:18px;color:#334}
+.btn{display:inline-block;background:var(--gold);color:#111;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.btn.outline{background:#fff;color:#111;border:2px solid #111}
+section{padding:26px 0}h2{font-size:26px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--muted)}
+form{background:#fff;border-radius:14px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:11px;border:1px solid #cbd5d7;border-radius:10px;font:inherit}
+button{cursor:pointer;background:#111;color:#fff;border:0;padding:13px 22px;border-radius:10px;font-weight:700;font-size:16px}
+.ok{background:#e6f4ea;border:1px solid #a3d9a5;padding:12px;border-radius:10px;margin-top:14px;display:none}
+.note{font-size:14px;color:var(--muted)}footer{background:#111;color:#dbe3e3;padding:26px 0;margin-top:20px}footer a{color:#fff}
+@media(max-width:600px){.hero h2{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="demo">DEMO WEBSITE — NOT THE FIRM'S LIVE SITE <small>This is a sample design for Global Citizenship Solution to review. Enquiries entered here are demo-only and are not sent to the firm.</small></div>
+<header><div class="wrap">
+<div class="top"><div class="logo">GCS</div><div><h1>Global Citizenship Solution <small>Immigration | Residency | Citizenship</small></h1></div></div>
+<nav><a href="#services">Services</a><a href="#team">Team</a><a href="#enquire">Enquire</a><a href="#contact">Contact</a><a href="admin.html">Firm Login (Demo CMS)</a></nav>
+</div></header>
+<main class="wrap">
+<section class="hero">
+<h2>Immigration and second-passport help, explained clearly — and enquiries in one place.</h2>
+<p>Right now the firm's linked website does not load as a usable site, so clients only find it through social profiles. This demo shows what a working website could do: explain immigration, residency and citizenship services, introduce the team, and capture enquiries with a proper form.</p>
+<a class="btn" href="#enquire">Start an Enquiry</a>
+<a class="btn outline" href="tel:+923092800081">Call 0309 2800081</a>
+<p class="note">No WhatsApp button is shown here, because no verified firm WhatsApp link was found.</p>
+</section>
+
+<section id="services"><h2>Services</h2>
+<p class="note">Service areas as listed on the firm's LinkedIn specialties. No specific destination-country list is claimed here, because no verified current services page was found.</p>
+<div class="grid">
+<div class="card"><h3>Immigration</h3><p>Immigration advice and case support, as listed.</p></div>
+<div class="card"><h3>Citizenship</h3><p>Citizenship and second-passport guidance, as listed.</p></div>
+<div class="card"><h3>Residency</h3><p>Residency routes, as shown in the firm's tagline.</p></div>
+<div class="card"><h3>Academic</h3><p>Academic immigration, as listed on LinkedIn.</p></div>
+</div>
+<p class="note">Post topics seen include Canadian, Australian and New Zealand immigration — these are post topics, not a verified service list, so they are not presented here as guaranteed offerings.</p>
+</section>
+
+<section id="team"><h2>Team</h2>
+<div class="grid">
+<div class="card"><h3>Muhammad Zulqurnain Asad</h3><p>CEO — as shown in the firm's post captions; LinkedIn snippet: Co-Founder, CEO.</p></div>
+<div class="card"><h3>Col. (R) Tauqir Jadoon</h3><p>Head of CIP Projects — as shown in the firm's post/image titles.</p></div>
+</div>
+</section>
+
+<section id="enquire"><h2>Enquire</h2>
+<form id="enqForm">
+<label for="ename">Your name</label><input id="ename" required placeholder="Full name">
+<label for="ephone">Phone</label><input id="ephone" required placeholder="03xx xxxxxxx" inputmode="tel">
+<label for="eemail">Email</label><input id="eemail" type="email" placeholder="you@example.com">
+<label for="earea">Area of interest</label><select id="earea"><option>Immigration</option><option>Citizenship</option><option>Residency</option><option>Academic</option><option>Other — please describe below</option></select>
+<label for="emsg">Tell us about your case (optional)</label><textarea id="emsg" rows="3" placeholder="e.g. I want to discuss immigration options for my family"></textarea>
+<p><button type="submit">Send Enquiry (Demo)</button></p>
+<div class="ok" id="okMsg">Thank you — your demo enquiry has been saved in this browser only. In a live site, the firm would reply by phone or email. This demo does not send anything to the firm.</div>
+<p class="note">Demo notice: this form stores the enquiry in your browser's local storage only. There is no server, no real login, and no payment or notification system in this demo. A production site would need a backend / WordPress build. No guarantee, fee, or outcome is promised here.</p>
+</form></section>
+
+<section id="contact"><h2>Contact — Lahore Head Office</h2>
+<div class="grid">
+<div class="card"><h3>Address</h3><p>3-F/4, Kiran Villas, Aziz Avenue, Main Canal Road, Upper Mall Scheme, Lahore, Pakistan</p><p class="note">As shown on Facebook, Instagram and LinkedIn. Older Gulberg addresses seen in secondary listings are not shown here as current.</p></div>
+<div class="card"><h3>Phone &amp; Email</h3><p><a href="tel:+923092800081">0309 2800081</a><br><a href="mailto:info@globalcitizenshipsolution.com">info@globalcitizenshipsolution.com</a></p></div>
+<div class="card"><h3>Hours</h3><p>Facebook shows Mon–Sat 10:00 AM – 6:00 PM, Sun closed — but Facebook notes these hours were updated about 5 years ago, so please confirm before relying on them.</p></div>
+<div class="card"><h3>Follow</h3><p><a href="https://www.facebook.com/globalcitizenshipsolution.co/">Facebook — 17K followers</a><br><a href="https://www.instagram.com/globalcitizenship1/">Instagram — @globalcitizenship1</a><br><a href="https://www.linkedin.com/company/global-citizenship-solution/about/">LinkedIn</a></p></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">
+<p><strong>DEMO — Global Citizenship Solution website sample.</strong> Built for review only. Not affiliated with, and not published by, the firm. Real client data must not be entered in this demo.</p>
+<p><a href="admin.html">Firm Login (Demo CMS)</a> — front-end demo only; login is UI-only, no real authentication.</p>
+</div></footer>
+<script>
+const KEY='gcs_demo_v1';
+function getData(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+document.getElementById('enqForm').addEventListener('submit',e=>{e.preventDefault();
+  const d=getData(); d.enquiries=d.enquiries||[];
+  d.enquiries.push({name:document.getElementById('ename').value,phone:document.getElementById('ephone').value,email:document.getElementById('eemail').value,area:document.getElementById('earea').value,message:document.getElementById('emsg').value,status:'Pending',at:new Date().toISOString()});
+  localStorage.setItem(KEY,JSON.stringify(d)); document.getElementById('okMsg').style.display='block'; e.target.reset();});
+</script>
+</body>
+</html>
